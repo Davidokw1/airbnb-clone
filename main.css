@@ -1,0 +1,134 @@
+ 50px;
+    position: absolute;
+    top: 8%; left: 93%;
+}
+.bi-search{
+    position: absolute;
+    top: 23%; left: 1%;
+    width: 100%;
+}
+.search-nav-general>.search-nav-item{
+    width: 100%;
+    height: max-content;
+    border-radius: 200px;
+}
+.search-nav-general>.search-nav-item:hover, .search-nav-general>.homes-icon:hover{
+    background-color: antiquewhite;
+}
+.search-nav-general>.search-nav-div:hover{
+    background-color: antiquewhite; 
+}
+
+/* bottom nav */
+@media screen and (max-width:568px) {
+    /* Default phone nav */
+    .phone-nav{
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        width: 100%;
+        background-color: aqua;
+        padding: 3%;
+        visibility: hidden;
+    }
+    .phone-nav>.phone-background{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        padding:5% 0;
+    }
+    .phone-nav>.phone-background>.search-input{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 70%;
+        background-color: antiquewhite;
+        padding: 4%;
+        border-radius: 200px;
+        position: absolute;
+        left: 10%; 
+    }
+    .phone-nav>.phone-background>.search-input>.search{
+        width: 12px;
+        height: 13px;
+        padding: 1% 3% 0% 0%;
+    }
+    .phone-nav>.phone-background>.phone-flex{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20%;
+    }
+    #home,#expierence,#service{
+        display: block;
+        text-align: center;
+    }
+
+    /* Phone nav on Scroll */
+    .phone-nav-Scroll{
+        position: fixed;
+        top: 0; left: 0; 
+        padding: 2%;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .phone-nav-Scroll>.search-input{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        background-color: antiquewhite;
+        padding: 4%;
+        border-radius: 200px;
+        position: absolute;
+        left: 10%; 
+    }
+   .phone-nav-Scroll>.search-input>.search-scroll{
+        width: 15px;
+        height: 15px;
+        padding: 1% 3% 0% 0%;
+    }
+    .phone-nav-Scroll>.phone-scroll{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15%;
+    }
+
+    /* Phone bottom nav */
+    .bottom-nav{
+        position: fixed;
+        bottom:0; left: 0;
+        width: 100%;
+        height: 10%;
+        background-co.nav-on-Scroll{
+    position: fixed;
+    top: 0%; 
+    width: 100%;
+    background-color: blueviolet;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    visibility: hidden;
+}
+.search-nav-general{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: aliceblue;
+    position:absolute;
+    top: 15%; left: 20%;
+    border-radius: 200px;
+}
+.search-nav-general>.homes-icon{
+    padding:1% 2%;
+    border-radius: 200px;
+}
+.search-nav-general>.search-nav-div{
+    background-color: white;
+    width: 40px; height: 40px;
+    border-radius:lor: aqua;
+    }
+    .bottom-nav>.general-nav-bottom{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
